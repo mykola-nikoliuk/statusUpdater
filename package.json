@@ -1,0 +1,23 @@
+{
+  "name": "statusupdater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-nikoliuk/statusUpdater.git"
+  },
+  "author": "Mykola Nikoliuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick-nikoliuk/statusUpdater/issues"
+  },
+  "homepage": "https://github.com/nick-nikoliuk/statusUpdater#readme",
+  "dependencies": {
+    "firebase": "^5.8.5",
+    "sntp": "^3.0.2"
+  }
+}
