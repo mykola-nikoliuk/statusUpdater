@@ -27,5 +27,5 @@ function updateTime() {
 
 firebase
   .auth(email, password, firebaseConfig)
-  .then(subscribe)
+  // .then(subscribe)
   .then(() => setInterval(updateTime, updatePeriod));
