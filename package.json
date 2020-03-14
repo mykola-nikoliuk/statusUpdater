@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/nick-nikoliuk/statusUpdater#readme",
   "dependencies": {
-    "firebase": "^5.8.5",
-    "sntp": "^3.0.2"
+    "date-format": "^3.0.0",
+    "firebase": "^7.11.0",
+    "sntp": "^3.0.2",
+    "tcp-ping": "^0.1.1"
   }
 }
