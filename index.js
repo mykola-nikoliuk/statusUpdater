@@ -39,6 +39,8 @@ function updatePing() {
     firebase.path(`ping/${serverName}/${date}`).update({
       [time]: avg | 0
     });
+
+    firebase.path(`ping/${serverName}/dates`).update({ [date]: "" });
   });
 }
 

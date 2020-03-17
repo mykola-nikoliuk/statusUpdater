@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Online View</title>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
+    <script src="./onlineViewer.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<style>
+    .pieContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #lineChartContainer {
+        height: 300px;
+        width: 100%;
+    }
+
+    #pieChartContainer {
+        height: 300px;
+        width: 50%;
+    }
+
+    #liveLineChartContainer {
+        height: 300px;
+        width: 50%;
+    }
+</style>
+
+<div id="lineChartContainer"></div>
+<div class="pieContainer">
+    <div id="pieChartContainer"></div>
+    <div id="liveLineChartContainer"></div>
+</div>
+</body>
+</html>
